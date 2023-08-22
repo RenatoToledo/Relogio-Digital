@@ -24,7 +24,7 @@ body {
     height: 200px;
     width: 600px;
     background: transparent;
-    border-radius: 0px;
+    border-radius: 1px;
     box-shadow: 8px 8px 8px rgba(5, 215, 0, 5);
     letter-spacing: 5px;
     
