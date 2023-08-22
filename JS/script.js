@@ -36,22 +36,4 @@ const relogio = setInterval(function time() {
 })
 
 
-/*
-const dt = setInterval(function date() {
-    let date = new Date();
-    let d = date.getDate();
-    let m = date.getMonth()+1;
-    let y = date.getFullYear();
-
-    if (d < 10) hr = '0' + d;
-    if (m < 10) min = '0' + m;
-    if (y < 10) s = '0' + y;
-
-    day.textContent = d;
-    month.textContent = m;
-    year.textContent = y;
-})
-*/
-
-const data=new Date()
 
