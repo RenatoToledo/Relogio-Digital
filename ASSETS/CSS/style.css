@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Cormorant+Upright:wght@400;700&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Big+Shoulders+Display:wght@200;300&family=Cormorant+Upright:wght@400;700&family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Big+Shoulders+Display:wght@200;300&family=Cormorant+Upright:wght@400;700&family=Genos:wght@300&family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Big+Shoulders+Display:wght@200;300&family=Cormorant+Upright:wght@400;700&family=Genos:wght@300&family=Sarala:wght@700&family=Stick+No+Bills&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Barriecito', 'Sarala';
+    font-family: 'Genos','Stick No Bills', 'Big Shoulders Display', 'Sarala';
 }
 
 body {
-    height: 100vh;
-    background: linear-gradient(285deg, #032030, #004A5C);
+    height: 80vh;
+    background: linear-gradient(285deg, #6b6a6a, #616363);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,12 +20,13 @@ body {
 .relogio {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     height: 200px;
-    width: 500px;
+    width: 600px;
     background: transparent;
-    border-radius: 10px;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 5);
+    border-radius: 1px;
+    box-shadow: 8px 8px 8px rgba(5, 215, 0, 5);
+    letter-spacing: 5px;
     
 }
 
@@ -33,11 +37,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: aqua;
+    color: rgb(244, 246, 246);
     background: rgba(5, 5, 5, .9);
-    box-shadow: 5px 5px 25px rgba(0, 0, 0, .7);
-    border-radius: 45px;
-    letter-spacing: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    letter-spacing: 10px;
 }
 
 .relogio span {
@@ -46,6 +50,44 @@ body {
 }
 
 .relogio span.tempo {
-    font-size: 8px;
+    font-size: 18px;
 }
 
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px rgba(5, 215, 0, 5);
+    letter-spacing: 5px;
+    
+    
+}
+
+
+.data div {
+    height: 140px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(244, 246, 246);
+    background: rgba(5, 5, 5, .9);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, .7);
+    border-radius: 5px;
+    letter-spacing: 10px;
+}
+
+.data span {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.data span.dt {
+    font-size: 18px;
+}
